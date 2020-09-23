@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">formulario</string>
+    <string name="app_name">Formulario</string>
     <string name="registro">Registro</string>
     <string name="nombre">Nombre</string>
     <string name="correo">Correo Electrónico</string>

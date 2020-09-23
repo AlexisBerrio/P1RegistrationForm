@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.setIcon(R.mipmap.ic_launcher)
+
         val dateSetListener =
             DatePickerDialog.OnDateSetListener { view, year, month, day ->
                 c.set(Calendar.YEAR, year)
