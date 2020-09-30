@@ -1,3 +1,10 @@
+/*
+Formulario app
+Created by:
+            Alexis Berrio Arenas
+            Dario Fernando Arévalo
+ */
+
 package com.alexisberrio.formulario
 
 import android.app.DatePickerDialog
@@ -15,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         private const val SPACE = " "
     }
 
+    //
     private var fechaNacimiento: String = ""
     private var c = Calendar.getInstance()
 
